@@ -1,0 +1,14 @@
+.band{
+	border: 10px solid yellow;
+	padding:20px;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+body{
+	background-color: orange;
+}
+
+img{
+	border-radius: 25px;
+}

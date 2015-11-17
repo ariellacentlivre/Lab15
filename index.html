@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Lab 15 </title>
+
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<body ng-app>
+	<div class="band">
+	<img src="Jackson5.jpg">
+		<div ng-init='Jackson5 =["Michael","Jermaine","Randy","Tito","Jackie","Marlon"]'>
+
+		<h3> Jackson5 Band </h3>
+		<div ng-repeat="member in Jackson5">{{member}}</div> 
+		</div>
+	</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+</body>
+</html>
